@@ -37,24 +37,7 @@
 			);
 			target = 4AA2A6D32F23B9E500C15AC6 /* TRUSTORE */;
 		};
-		4AA2A7292F23BC0D00C15AC6 /* Exceptions for "Storage" folder in "TRUSTORE" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				TRUSTORE.xcdatamodeld,
-			);
-			target = 4AA2A6D32F23B9E500C15AC6 /* TRUSTORE */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		4AA2A72A2F23BC0D00C15AC6 /* Exceptions for "Storage" folder in "Compile Sources" phase from "TRUSTORE" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 4AA2A6D02F23B9E500C15AC6 /* Sources */;
-			membershipExceptions = (
-				TRUSTORE.xcdatamodeld,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4AA2A6D62F23B9E500C15AC6 /* TRUSTORE */ = {
@@ -77,10 +60,6 @@
 		};
 		4AA2A7272F23BC0D00C15AC6 /* Storage */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				4AA2A7292F23BC0D00C15AC6 /* Exceptions for "Storage" folder in "TRUSTORE" target */,
-				4AA2A72A2F23BC0D00C15AC6 /* Exceptions for "Storage" folder in "Compile Sources" phase from "TRUSTORE" target */,
-			);
 			path = Storage;
 			sourceTree = "<group>";
 		};
